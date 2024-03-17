@@ -53,4 +53,11 @@ holdingsleep(struct sleeplock *lk)
 }
 
 
+int ke_clone(void (*fn)(void*), void* stack, void* arg) {
+  return 0;
+}
 
+
+int ke_nice(int inc) {
+  return 0;
+}
