@@ -140,8 +140,6 @@ void            acquiresleep(struct sleeplock*);
 void            releasesleep(struct sleeplock*);
 int             holdingsleep(struct sleeplock*);
 void            initsleeplock(struct sleeplock*, char*);
-int             ke_clone(void (void*), void* , void*);
-int             ke_nice(int);
 
 // string.c
 int             memcmp(const void*, const void*, uint);
